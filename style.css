@@ -1,0 +1,759 @@
+.img1{
+    height: 200px;
+    position: absolute;
+    z-index: 10;
+}
+
+.esp{
+    width: 35px; margin-left:30px ; margin-top: -100px;
+}
+
+.ang{
+    width: 35px; margin-left:30px ; margin-top: -100px
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.tooltip6 {
+    position: absolute;
+    background: rgba(51, 51, 51, 0.76);
+    /* border: 4px solid #666;*/
+    border-radius:30px;
+    width: 330px;
+    padding: 20px;
+    color: #f1f1f1;
+    font-size: 17px;
+    
+    top: 196px;
+    left: 88px;
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+    z-index:10;
+    
+    
+    }
+    .tooltip6::after, .tooltip6::before {
+    content: "";
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    
+    }
+    .tooltip6::after {
+    border-bottom-color: rgba(51, 51, 51, 0.77);
+    border-width: 25px;
+    margin-left: -25px;
+    
+    }
+    .tooltip6::before {
+    /* border-bottom-color: #666;*/
+    border-width: 30px;
+    margin-left: -30px;
+    }
+    
+    .btn6 {
+    display: inline;
+    position: relative;
+    }
+    .btn6 img {
+    position: relative;
+    top: 25px;
+    width: 60px;
+    }
+    .btn6:hover .tooltip6{
+    /* display: block; */
+    pointer-events: all;
+    opacity: 1;
+    transition: all 0.4s ease;
+    }
+
+    a.buttonBlanch{
+        width: 150px;
+        background: url("Logo_monument_historique.svg");
+        position: absolute;
+        top: 20px;
+        left: 120px;
+        transform: translate(-50%, -50%);
+        color: var(--color1);
+        border: 2px solid var(--color1);
+        padding: 8px 15px;
+        margin-left: 70px;
+        text-decoration: none;
+        background-color: #4e4b4b00;
+        color: rgb(2, 2, 2);
+        background-size: 28px;
+        background-position: 135px;
+        background-repeat: no-repeat;
+        
+        
+        display: inline-block;
+        margin-top: 50px;
+        font-size: 20px;
+        text-align:left;
+        border-radius: 0.5rem;
+        z-index: 20;
+    }
+
+    a.contact-button3{
+        width: 120px;
+        background: url("distance.svg");
+        position: absolute;
+        top: 76%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--color1);
+        border: 2px solid var(--color1);
+        padding: 8px 15px;
+        margin-left: 70px;
+        text-decoration: none;
+        background-color: #fdf9f950;
+        
+        background-size: 28px;
+        background-position: 115px;
+        background-repeat: no-repeat;
+        
+        
+        display: inline-block;
+        margin-top: 50px;
+        font-size: 20px;
+        text-align:left;
+        border-radius: 0.5rem;
+    }
+/*--------------------------------------------------------------------------*/
+    .tooltip10 {
+        position: absolute;
+        background: rgba(51, 51, 51, 0.76);
+        /* border: 4px solid #666;*/
+        border-radius:30px;
+        width: 330px;
+        padding: 20px;
+        color: #f1f1f1;
+        font-size: 17px;
+        
+        top: 196px;
+        left: 100px;
+        /* display: none; */
+        opacity: 0;
+        pointer-events: none;
+        z-index:10;
+        
+        
+        }
+        .tooltip10::after, .tooltip10::before {
+        content: "";
+        bottom: 100%;
+        left: 50%;
+        border: solid transparent;
+        height: 0;
+        width: 0;
+        position: absolute;
+        
+        }
+        .tooltip10::after {
+        border-bottom-color: rgba(51, 51, 51, 0.77);
+        border-width: 25px;
+        margin-left: -25px;
+        
+        }
+        .tooltip10::before {
+        /* border-bottom-color: #666;*/
+        border-width: 30px;
+        margin-left: -30px;
+        }
+        
+        .btn10 {
+        display: inline;
+        position: relative;
+        }
+        .btn10 .img8 {
+        position: relative;
+        top: -403px;
+        width: 60px;
+        }
+        .btn10:hover .tooltip10{
+        /* display: block; */
+        pointer-events: all;
+        opacity: 1;
+        transition: all 0.4s ease;
+        }
+
+        a.buttonCard{
+            width: 120px;
+            background: url("montagne1.svg");
+            position: absolute;
+            bottom: -70px;
+            left: 280px;
+            transform: translate(-50%, -50%);
+            color: var(--color1);
+            border: 2px solid var(--color1);
+            padding: 8px 15px;
+            margin-left: 70px;
+            text-decoration: none;
+            background-color: #4e4b4b00;
+            color: rgb(2, 2, 2);
+            background-size: 48px;
+            background-position: 94px;
+            background-position-y: 10px;
+            background-repeat: no-repeat;
+            
+            
+            display: inline-block;
+            margin-top: 50px;
+            font-size: 20px;
+            text-align:left;
+            border-radius: 0.5rem;
+            z-index: 20;
+        }
+    
+        a.contact-button2{
+            width: 120px;
+            background: url("distance.svg");
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: var(--color1);
+            border: 2px solid var(--color1);
+            padding: 8px 15px;
+            margin-left: 70px;
+            text-decoration: none;
+            background-color: #fdf9f950;
+            
+            background-size: 28px;
+            background-position: 111px;
+            background-repeat: no-repeat;
+            
+            
+            display: inline-block;
+            margin-top: 50px;
+            font-size: 20px;
+            text-align:left;
+            border-radius: 0.5rem;
+        }
+
+/*----------------------------------------------------------------------------------------*/
+
+.tooltip5 {
+position: absolute;
+background: rgba(51, 51, 51, 0.76);
+/* border: 4px solid #666;*/
+border-radius:30px;
+width: 330px;
+padding: 20px;
+color: #f1f1f1;
+font-size: 17px;
+
+top: 196px;
+left: 983px;
+/* display: none; */
+opacity: 0;
+pointer-events: none;
+z-index:10;
+
+
+}
+.tooltip5::after, .tooltip5::before {
+content: "";
+bottom: 100%;
+left: 50%;
+border: solid transparent;
+height: 0;
+width: 0;
+position: absolute;
+
+}
+.tooltip5::after {
+border-bottom-color: rgba(51, 51, 51, 0.77);
+border-width: 25px;
+margin-left: -25px;
+
+}
+.tooltip5::before {
+/* border-bottom-color: #666;*/
+border-width: 30px;
+margin-left: -30px;
+}
+
+.btn5 {
+display: inline;
+position: relative;
+}
+.btn5 .img3 {
+position: relative;
+top: -75px;
+width: 60px;
+}
+.btn5:hover .tooltip5{
+/* display: block; */
+pointer-events: all;
+opacity: 1;
+transition: all 0.4s ease;
+}
+
+a.buttonRenn{
+    width: 120px;
+    height: 60;
+    background: url("Logo_monument_historique.svg");
+    position: absolute;
+    bottom: -85px;
+    left: 1160px;
+    transform: translate(-50%, -50%);
+    color: var(--color1);
+    border: 2px solid var(--color1);
+    padding: 8px 15px;
+    margin-left: 70px;
+    text-decoration: none;
+    background-color: #4e4b4b00;
+    color: rgb(2, 2, 2);
+    background-size: 25px;
+    background-position: 110px;
+    /*background-position-y: 10px;*/
+    background-repeat: no-repeat;
+    
+    
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 18px;
+    text-align:left;
+    border-radius: 0.5rem;
+    z-index: 20;
+}
+
+a.contact-button4{
+    width: 120px;
+    background: url("distance.svg");
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color1);
+    border: 2px solid var(--color1);
+    padding: 8px 15px;
+    margin-left: 70px;
+    text-decoration: none;
+    background-color: #fdf9f950;
+    
+    background-size: 28px;
+    background-position: 115px;
+    background-repeat: no-repeat;
+    
+    
+    display: inline-block;
+    margin-top: 45px;
+    font-size: 20px;
+    text-align:left;
+    border-radius: 0.5rem;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.tooltip1 {
+    position: absolute;
+    background: rgba(51, 51, 51, 0.76);
+    /* border: 4px solid #666;*/
+    border-radius:30px;
+    width: 330px;
+    padding: 20px;
+    color: #f1f1f1;
+    font-size: 17px;
+    
+    top:197px;
+    left: 1320px;
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+    z-index:10;
+    
+    
+    }
+    .tooltip1::after, .tooltip5::before {
+    content: "";
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    
+    }
+    .tooltip1::after {
+    border-bottom-color: rgba(51, 51, 51, 0.77);
+    border-width: 25px;
+    margin-left: -25px;
+    
+    }
+    .tooltip1::before {
+    /* border-bottom-color: #666;*/
+    border-width: 30px;
+    margin-left: -30px;
+    }
+    
+    .btn1 {
+    display: inline;
+    position: relative;
+    }
+    .btn1 .img4 {
+    position: relative;
+    top: -98px;
+    width: 60px;
+    }
+    .btn1:hover .tooltip1{
+    /* display: block; */
+    pointer-events: all;
+    opacity: 1;
+    transition: all 0.4s ease;
+    }
+
+    a.buttonFa{
+        width: 120px;
+        height: 50px;
+        background: url("Logo_monument_historique.svg");
+        position: absolute;
+        bottom: -90px;
+        left: 1460px;
+        transform: translate(-50%, -50%);
+        color: var(--color1);
+        border: 2px solid var(--color1);
+        /*padding: 13px 55px;*/
+        /*margin-left: 70px;*/
+        text-decoration: none;
+        background-color: #4e4b4b00;
+        color: rgb(2, 2, 2);
+        background-size: 25px;
+        background-position: 50px;
+        
+        background-position-y: 20px;
+        background-repeat: no-repeat;
+        
+        
+        display: inline-block;
+        /*margin-top: 50px;*/
+        font-size: 18px;
+        text-align:center;
+        border-radius: 0.5rem;
+        z-index: 20;
+    }
+
+    /*----------------------------------------------------------------------------------*/
+
+    .tooltip3 {
+        position: absolute;
+        background: rgba(51, 51, 51, 0.76);
+        /* border: 4px solid #666;*/
+        border-radius:30px;
+        width: 330px;
+        padding: 20px;
+        color: #f1f1f1;
+        font-size: 17px;
+        
+        top:197px;
+        left: 1372px;
+        /* display: none; */
+        opacity: 0;
+        pointer-events: none;
+        z-index:10;
+        
+        
+        }
+        .tooltip3::after, .tooltip3::before {
+        content: "";
+        bottom: 100%;
+        left: 50%;
+        border: solid transparent;
+        height: 0;
+        width: 0;
+        position: absolute;
+        
+        }
+        .tooltip3::after {
+        border-bottom-color: rgba(51, 51, 51, 0.77);
+        border-width: 25px;
+        margin-left: -25px;
+        
+        }
+        .tooltip3::before {
+        /* border-bottom-color: #666;*/
+        border-width: 30px;
+        margin-left: -30px;
+        }
+        
+        .btn3 {
+        display: inline;
+        position: relative;
+        }
+        .btn3 .img5 {
+        position: relative;
+        top: -98px;
+        width: 60px;
+        }
+        .btn3:hover .tooltip3{
+        /* display: block; */
+        pointer-events: all;
+        opacity: 1;
+        transition: all 0.4s ease;
+        }
+
+        a.buttonSals{
+            width: 80px;
+            height: 50px;
+            background: url("water.svg");
+            position: absolute;
+            bottom: -128px;
+            left: 1553px;
+            transform: translate(-50%, -50%);
+            color: var(--color1);
+            border: 2px solid var(--color1);
+            /*padding: 13px 55px;*/
+            /*margin-left: 70px;*/
+            text-decoration: none;
+            background-color: #4e4b4b00;
+            color: rgb(2, 2, 2);
+            background-size: 35px;
+            background-position: 1px;
+            
+            background-position-y: 22px;
+            background-repeat: no-repeat;
+            
+            
+            display: inline-block;
+            /*margin-top: 50px;*/
+            font-size: 22px;
+            text-align:center;
+            border-radius: 0.5rem;
+            z-index: 20;
+        }
+
+        a.contact-button5{
+            width: 120px;
+            background: url("distance.svg");
+            position: absolute;
+            top: 76%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: var(--color1);
+            border: 2px solid var(--color1);
+            padding: 8px 15px;
+            margin-left: 70px;
+            text-decoration: none;
+            background-color: #fdf9f950;
+            
+            background-size: 28px;
+            background-position: 115px;
+            background-repeat: no-repeat;
+            
+            
+            display: inline-block;
+            margin-top: 38px;
+            font-size: 20px;
+            text-align:left;
+            border-radius: 0.5rem;
+        }
+        /*--------------------------------------------------------------------------------*/
+
+        .tooltip2 {
+            position: absolute;
+            background: rgba(51, 51, 51, 0.76);
+            /* border: 4px solid #666;*/
+            border-radius:30px;
+            width: 330px;
+            padding: 20px;
+            color: #f1f1f1;
+            font-size: 17px;
+            
+            top: 197px;
+            left: 1372px;
+            /* display: none; */
+            opacity: 0;
+            pointer-events: none;
+            z-index:10;
+            
+            
+            }
+            .tooltip2::after, .tooltip2::before {
+            content: "";
+            bottom: 100%;
+            left: 50%;
+            border: solid transparent;
+            height: 0;
+            width: 0;
+            position: absolute;
+            
+            }
+            .tooltip2::after {
+            border-bottom-color: rgba(51, 51, 51, 0.77);
+            border-width: 25px;
+            margin-left: 9px;
+            
+            }
+            .tooltip2::before {
+            /* border-bottom-color: #666;*/
+            border-width: 30px;
+            margin-left: -30px;
+            }
+            
+            .btn2 {
+            display: inline;
+            position: relative;
+            }
+            .btn2 .img6 {
+            position: relative;
+            top: -228px;
+            width: 70px;
+            }
+            .btn2:hover .tooltip2{
+            /* display: block; */
+            pointer-events: all;
+            opacity: 1;
+            transition: all 0.4s ease;
+            }
+
+            a.buttonCouiz{
+                width: 80px;
+                height: 50px;
+                background: url("village1.svg");
+                position: absolute;
+                bottom: -77px;
+                left: 1584px;
+                transform: translate(-50%, -50%);
+                color: var(--color1);
+                border: 2px solid var(--color1);
+                /*padding: 13px 55px;*/
+                /*margin-left: 70px;*/
+                text-decoration: none;
+                background-color: #4e4b4b00;
+                color: rgb(2, 2, 2);
+                background-size: 50px;
+                background-position: 1px;
+                
+                background-position-y: 10px;
+                background-repeat: no-repeat;
+                
+                
+                display: inline-block;
+                /*margin-top: 50px;*/
+                font-size: 18px;
+                text-align:center;
+                border-radius: 0.5rem;
+                z-index: 20;
+            }
+
+            /*---------------------------------------------------------------------------------------*/
+
+            .tooltip4 {
+                position: absolute;
+                background: rgba(51, 51, 51, 0.76);
+                /* border: 4px solid #666;*/
+                border-radius:30px;
+                width: 330px;
+                padding: 20px;
+                color: #f1f1f1;
+                font-size: 17px;
+                
+                top: 197px;
+                left: 1372px;
+                /* display: none; */
+                opacity: 0;
+                pointer-events: none;
+                z-index:10;
+                
+                
+                }
+                .tooltip4::after, .tooltip4::before {
+                content: "";
+                bottom: 100%;
+                left: 50%;
+                border: solid transparent;
+                height: 0;
+                width: 0;
+                position: absolute;
+                
+                }
+                .tooltip4::after {
+                border-bottom-color: rgba(51, 51, 51, 0.77);
+                border-width: 25px;
+                margin-left: 59px;
+                
+                }
+                .tooltip4::before {
+                /* border-bottom-color: #666;*/
+                border-width: 30px;
+                margin-left: -30px;
+                }
+                
+                .btn4 {
+                display: inline;
+                position: relative;
+                }
+                .btn4 .img7 {
+                position: relative;
+                top: -328px;
+                width: 70px;
+                }
+                .btn4:hover .tooltip4{
+                /* display: block; */
+                pointer-events: all;
+                opacity: 1;
+                transition: all 0.4s ease;
+                }
+
+                a.buttonMont{
+                    width: 80px;
+                    height: 50px;
+                    background: url("village1.svg");
+                    position: absolute;
+                    bottom: -77px;
+                    left: 1680px;
+                    transform: translate(-50%, -50%);
+                    color: var(--color1);
+                    border: 2px solid var(--color1);
+                    /*padding: 13px 55px;*/
+                    /*margin-left: 70px;*/
+                    text-decoration: none;
+                    background-color: #4e4b4b00;
+                    color: rgb(2, 2, 2);
+                    background-size: 50px;
+                    background-position: 1px;
+                    
+                    background-position-y: 10px;
+                    background-repeat: no-repeat;
+                    
+                    
+                    display: inline-block;
+                    /*margin-top: 50px;*/
+                    font-size: 18px;
+                    text-align:center;
+                    border-radius: 0.5rem;
+                    z-index: 20;
+                }
+
+                @media only screen and (max-width:380px){
+    
+
+    .esp{
+        margin: 300;
+        display: inline;
+        margin-left: 300px;
+        margin-bottom: 19px ;
+    }
+}
+
+@media only screen and (max-width:280px){
+    
+
+    .ang{
+        margin: 300;
+        display: inline;
+        margin-left: 250px;
+        margin-bottom: 0px ;
+    }
+}
+
+    
