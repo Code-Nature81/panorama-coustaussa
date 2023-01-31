@@ -185,7 +185,7 @@
         transition: all 0.4s ease;
         }
 
-        a.buttonCard{
+        .buttonCard{
             width: 120px;
             background: url("montagne1.svg");
             position: absolute;
