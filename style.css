@@ -188,8 +188,8 @@
         transition: all 0.4s ease;
         }
 
-        a.buttonCard{
-            width: 120px;
+        .buttonCard{
+            width: 140px;
             background: url("montagne1.svg");
             position: absolute;
             bottom: -70px;
@@ -291,7 +291,7 @@ position: relative;
 }
 .btn5 .img3 {
 position: relative;
-top: -75px;
+top: -50px;
 width: 60px;
 }
 .btn5:hover .tooltip5{
@@ -301,7 +301,7 @@ opacity: 1;
 transition: all 0.4s ease;
 }
 
-a.buttonRenn{
+.buttonRenn{
     width: 120px;
     height: 60;
     background: url("Logo_monument_historique.svg");
@@ -312,18 +312,18 @@ a.buttonRenn{
     color: var(--color1);
     border: 2px solid var(--color1);
     padding: 8px 15px;
-    margin-left: 70px;
+    margin-left: 60px;
     text-decoration: none;
     background-color: #4e4b4b00;
     color: rgb(2, 2, 2);
     background-size: 25px;
-    background-position: 110px;
+    background-position: 95px;
     /*background-position-y: 10px;*/
     background-repeat: no-repeat;
     
     
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 18px;
     text-align:left;
     border-radius: 0.5rem;
@@ -415,9 +415,9 @@ a.contact-button4{
     transition: all 0.4s ease;
     }
 
-    a.buttonFa{
+    .buttonFa{
         width: 120px;
-        height: 50px;
+        height: 70px;
         background: url("Logo_monument_historique.svg");
         position: absolute;
         bottom: -90px;
@@ -433,7 +433,7 @@ a.contact-button4{
         background-size: 25px;
         background-position: 50px;
         
-        background-position-y: 20px;
+        background-position-y: 42px;
         background-repeat: no-repeat;
         
         
@@ -494,7 +494,7 @@ a.contact-button4{
         }
         .btn3 .img5 {
         position: relative;
-        top: -98px;
+        top: -128px;
         width: 60px;
         }
         .btn3:hover .tooltip3{
@@ -504,12 +504,12 @@ a.contact-button4{
         transition: all 0.4s ease;
         }
 
-        a.buttonSals{
+        .buttonSals{
             width: 80px;
-            height: 50px;
+            height: 65px;
             background: url("water.svg");
             position: absolute;
-            bottom: -128px;
+            bottom: -135px;
             left: 1553px;
             transform: translate(-50%, -50%);
             color: var(--color1);
@@ -522,7 +522,7 @@ a.contact-button4{
             background-size: 35px;
             background-position: 1px;
             
-            background-position-y: 22px;
+            background-position-y: 34px;
             background-repeat: no-repeat;
             
             
@@ -530,6 +530,7 @@ a.contact-button4{
             /*margin-top: 50px;*/
             font-size: 22px;
             text-align:center;
+            padding-top: -80px;
             border-radius: 0.5rem;
             z-index: 20;
         }
@@ -618,12 +619,12 @@ a.contact-button4{
             transition: all 0.4s ease;
             }
 
-            a.buttonCouiz{
+            .buttonCouiz{
                 width: 80px;
-                height: 50px;
+                height: 60px;
                 background: url("village1.svg");
                 position: absolute;
-                bottom: -77px;
+                bottom: -72px;
                 left: 1584px;
                 transform: translate(-50%, -50%);
                 color: var(--color1);
@@ -636,7 +637,7 @@ a.contact-button4{
                 background-size: 50px;
                 background-position: 1px;
                 
-                background-position-y: 10px;
+                background-position-y: 30px;
                 background-repeat: no-repeat;
                 
                 
@@ -707,12 +708,12 @@ a.contact-button4{
                 transition: all 0.4s ease;
                 }
 
-                a.buttonMont{
+                .buttonMont{
                     width: 80px;
                     height: 50px;
                     background: url("village1.svg");
                     position: absolute;
-                    bottom: -77px;
+                    bottom: -65px;
                     left: 1680px;
                     transform: translate(-50%, -50%);
                     color: var(--color1);
@@ -725,7 +726,7 @@ a.contact-button4{
                     background-size: 50px;
                     background-position: 1px;
                     
-                    background-position-y: 10px;
+                    background-position-y: 20px;
                     background-repeat: no-repeat;
                     
                     
