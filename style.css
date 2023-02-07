@@ -75,8 +75,11 @@
     transition: all 0.4s ease;
     }
 
-    a.buttonBlanch{
+    .buttonBlanch{
+        
         width: 150px;
+        
+
         background: url("Logo_monument_historique.svg");
         position: absolute;
         top: 20px;
@@ -90,7 +93,7 @@
         background-color: #4e4b4b00;
         color: rgb(2, 2, 2);
         background-size: 28px;
-        background-position: 135px;
+        background-position: 120px;
         background-repeat: no-repeat;
         
         
@@ -185,7 +188,7 @@
         transition: all 0.4s ease;
         }
 
-        .buttonCard{
+        a.buttonCard{
             width: 120px;
             background: url("montagne1.svg");
             position: absolute;
